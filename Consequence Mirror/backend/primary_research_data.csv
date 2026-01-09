@@ -1,0 +1,17 @@
+region,disaster_type,magnitude,water_level,precipitation,soil_saturation,wind_speed,population_density,historic_drainage_capacity,confidence_base,action_required,impact_severity
+Coastal Region,Tsunami,7.8,2.5,0,0,0,High,Medium,0.88,IMMEDIATE EVACUATION REQUIRED,8.5
+Coastal Region,Tsunami,6.5,1.8,0,0,0,High,Medium,0.75,PREPARE FOR EVACUATION,6.2
+Coastal Region,Tsunami,5.2,1.2,0,0,0,Medium,Medium,0.65,MONITOR CLOSELY,4.8
+Coastal Region,Tsunami,4.0,0.8,0,0,0,Low,High,0.45,ALL CLEAR - NO IMMEDIATE ACTION,2.5
+Raipur,Flood,0,3.2,120,85,0,High,Low,0.88,IMMEDIATE EVACUATION REQUIRED,8.2
+Raipur,Flood,0,2.1,95,75,0,Medium,Medium,0.75,PREPARE FOR EVACUATION,5.8
+Raipur,Flood,0,1.5,80,65,0,Low,High,0.65,MONITOR CLOSELY,3.5
+Raipur,Flood,0,0.8,50,50,0,Low,High,0.40,ALL CLEAR - NO IMMEDIATE ACTION,2.0
+Chennai,Cyclone,0,0,0,0,220,High,Medium,0.95,IMMEDIATE EVACUATION REQUIRED,9.0
+Chennai,Cyclone,0,0,0,0,180,High,Medium,0.88,PREPARE FOR EVACUATION,7.5
+Chennai,Cyclone,0,0,0,0,140,Medium,High,0.75,MONITOR CLOSELY,5.2
+Coastal Region,Tsunami,7.5,2.0,0,0,0,High,Low,0.85,IMMEDIATE EVACUATION REQUIRED,8.0
+Coastal Region,Tsunami,6.8,1.5,0,0,0,Medium,Medium,0.72,PREPARE FOR EVACUATION,6.0
+Raipur,Flood,0,4.5,150,90,0,High,Low,0.92,IMMEDIATE EVACUATION REQUIRED,9.2
+Raipur,Flood,0,2.8,110,80,0,Medium,Medium,0.78,PREPARE FOR EVACUATION,6.5
+

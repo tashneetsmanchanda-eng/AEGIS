@@ -1,0 +1,2632 @@
+[
+  {
+    "Began": "1985-06-23",
+    "Ended": "1985-06-27",
+    "long": 75.0937,
+    "lat": 14.5398,
+    "Dead": 95,
+    "Displaced": 25000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1985-07-18",
+    "Ended": "1985-07-30",
+    "long": 76.9103,
+    "lat": 32.8353,
+    "Dead": 340,
+    "Displaced": 20000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1985-09-13",
+    "Ended": "1985-10-15",
+    "long": 82.8434,
+    "lat": 26.4816,
+    "Dead": 557,
+    "Displaced": 152000,
+    "MainCause": "Heavy Rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "1985-10-18",
+    "Ended": "1985-10-20",
+    "long": 86.7154,
+    "lat": 21.1495,
+    "Dead": 49,
+    "Displaced": 150000,
+    "MainCause": "Tropical cyclone",
+    "Severity": 2.0
+  },
+  {
+    "Began": "1986-06-15",
+    "Ended": "1986-08-20",
+    "long": 84.0726,
+    "lat": 25.6339,
+    "Dead": 258,
+    "Displaced": 3040000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1986-08-15",
+    "Ended": "1986-08-22",
+    "long": 80.187,
+    "lat": 17.4331,
+    "Dead": 150,
+    "Displaced": 3000000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1986-09-22",
+    "Ended": "1986-10-10",
+    "long": 89.4296,
+    "lat": 23.6547,
+    "Dead": 49,
+    "Displaced": 700000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1988-07-04",
+    "Ended": "1988-08-08",
+    "long": 80.7246,
+    "lat": 28.886,
+    "Dead": 233,
+    "Displaced": 500000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "1988-08-23",
+    "Ended": "1988-09-15",
+    "long": 86.5429,
+    "lat": 26.5037,
+    "Dead": 876,
+    "Displaced": 2000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1988-09-21",
+    "Ended": "1988-10-08",
+    "long": 75.0459,
+    "lat": 30.9339,
+    "Dead": 731,
+    "Displaced": 1250000,
+    "MainCause": "Heavy rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "1989-07-22",
+    "Ended": "1989-07-31",
+    "long": 76.4736,
+    "lat": 15.1816,
+    "Dead": 780,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1989-07-05",
+    "Ended": "1989-08-10",
+    "long": 92.8291,
+    "lat": 24.8678,
+    "Dead": 31,
+    "Displaced": 32000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "1989-09-03",
+    "Ended": "1989-09-10",
+    "long": 80.8611,
+    "lat": 26.4375,
+    "Dead": 7,
+    "Displaced": 0,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1990-03-21",
+    "Ended": "1990-03-22",
+    "long": 76.2592,
+    "lat": 33.8036,
+    "Dead": 17,
+    "Displaced": 0,
+    "MainCause": "Torrential rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1990-05-10",
+    "Ended": "1990-05-13",
+    "long": 80.6926,
+    "lat": 16.2843,
+    "Dead": 430,
+    "Displaced": 470000,
+    "MainCause": "Tropical cyclone",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1990-06-13",
+    "Ended": "1990-06-18",
+    "long": 92.7754,
+    "lat": 26.7553,
+    "Dead": 21,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "1990-07-03",
+    "Ended": "1990-07-24",
+    "long": 78.8703,
+    "lat": 26.7055,
+    "Dead": 425,
+    "Displaced": 63517,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1990-08-13",
+    "Ended": "1990-08-14",
+    "long": 80.6956,
+    "lat": 27.5435,
+    "Dead": 17,
+    "Displaced": 0,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1990-08-19",
+    "Ended": "1990-08-25",
+    "long": 71.3244,
+    "lat": 22.4257,
+    "Dead": 50,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1990-10-17",
+    "Ended": "1990-10-18",
+    "long": 92.817,
+    "lat": 26.0747,
+    "Dead": 10,
+    "Displaced": 6000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1990-10-24",
+    "Ended": "1990-10-28",
+    "long": 77.0504,
+    "lat": 11.3982,
+    "Dead": 44,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1991-05-07",
+    "Ended": "1991-05-11",
+    "long": 92.4232,
+    "lat": 24.4696,
+    "Dead": 13,
+    "Displaced": 25000,
+    "MainCause": "Tropical cyclone",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1991-06-10",
+    "Ended": "1991-06-12",
+    "long": 73.7324,
+    "lat": 15.733,
+    "Dead": 72,
+    "Displaced": 300000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "1991-07-13",
+    "Ended": "1991-07-19",
+    "long": 92.9592,
+    "lat": 26.6059,
+    "Dead": 25,
+    "Displaced": 400000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1991-07-29",
+    "Ended": "1991-07-31",
+    "long": 79.1574,
+    "lat": 20.9474,
+    "Dead": 500,
+    "Displaced": 6000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1991-08-14",
+    "Ended": "1991-08-18",
+    "long": 84.4178,
+    "lat": 20.2047,
+    "Dead": 15,
+    "Displaced": 0,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1991-08-15",
+    "Ended": "1991-08-29",
+    "long": 81.0334,
+    "lat": 28.3671,
+    "Dead": 88,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1991-09-01",
+    "Ended": "1991-09-14",
+    "long": 85.7348,
+    "lat": 24.707,
+    "Dead": 0,
+    "Displaced": 87500,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1991-09-14",
+    "Ended": "1991-09-15",
+    "long": 87.8328,
+    "lat": 24.3395,
+    "Dead": 21,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1991-11-13",
+    "Ended": "1991-11-18",
+    "long": 79.4752,
+    "lat": 14.0025,
+    "Dead": 90,
+    "Displaced": 85000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1992-06-15",
+    "Ended": "1992-07-23",
+    "long": 75.9695,
+    "lat": 16.5216,
+    "Dead": 90,
+    "Displaced": 8000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1992-07-10",
+    "Ended": "1992-07-20",
+    "long": 94.46,
+    "lat": 26.9122,
+    "Dead": 0,
+    "Displaced": 0,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1992-07-26",
+    "Ended": "1992-08-07",
+    "long": 86.0449,
+    "lat": 20.5033,
+    "Dead": 16,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1992-08-01",
+    "Ended": "1992-09-03",
+    "long": 80.7003,
+    "lat": 24.8678,
+    "Dead": 40,
+    "Displaced": 2000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1992-09-12",
+    "Ended": "1992-11-20",
+    "long": 78.8487,
+    "lat": 13.0242,
+    "Dead": 263,
+    "Displaced": 20000,
+    "MainCause": "Tropical cyclone",
+    "Severity": 2.0
+  },
+  {
+    "Began": "1993-06-04",
+    "Ended": "1993-06-22",
+    "long": 92.0974,
+    "lat": 24.9382,
+    "Dead": 238,
+    "Displaced": 950000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1993-07-08",
+    "Ended": "1993-08-13",
+    "long": 89.7567,
+    "lat": 25.1622,
+    "Dead": 3083,
+    "Displaced": 9370926,
+    "MainCause": "Monsoonal rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "1993-09-09",
+    "Ended": "1993-09-17",
+    "long": 78.9675,
+    "lat": 27.9917,
+    "Dead": 232,
+    "Displaced": 4590,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1993-10-11",
+    "Ended": "1993-10-21",
+    "long": 75.4042,
+    "lat": 13.407,
+    "Dead": 35,
+    "Displaced": 40000,
+    "MainCause": "Torrential rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1993-11-10",
+    "Ended": "1993-11-14",
+    "long": 77.5024,
+    "lat": 11.054,
+    "Dead": 95,
+    "Displaced": 0,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1993-12-04",
+    "Ended": "1993-12-15",
+    "long": 79.9572,
+    "lat": 12.5851,
+    "Dead": 70,
+    "Displaced": 45000,
+    "MainCause": "Tropical cyclone",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1994-07-01",
+    "Ended": "1994-07-24",
+    "long": 76.6191,
+    "lat": 20.6258,
+    "Dead": 617,
+    "Displaced": 800000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1994-07-03",
+    "Ended": "1994-07-12",
+    "long": 77.252,
+    "lat": 31.7869,
+    "Dead": 60,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1994-08-04",
+    "Ended": "1994-08-11",
+    "long": 80.6237,
+    "lat": 27.586,
+    "Dead": 53,
+    "Displaced": 3000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1994-08-08",
+    "Ended": "1994-08-10",
+    "long": 76.9177,
+    "lat": 31.7821,
+    "Dead": 11,
+    "Displaced": 0,
+    "MainCause": "Torrential rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1994-08-20",
+    "Ended": "1994-08-23",
+    "long": 77.27,
+    "lat": 31.7668,
+    "Dead": 9,
+    "Displaced": 0,
+    "MainCause": "Torrential rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1994-08-26",
+    "Ended": "1994-09-02",
+    "long": 79.2684,
+    "lat": 20.7866,
+    "Dead": 26,
+    "Displaced": 0,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1994-08-31",
+    "Ended": "1994-09-05",
+    "long": 77.0555,
+    "lat": 31.5294,
+    "Dead": 20,
+    "Displaced": 0,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1994-09-02",
+    "Ended": "1994-09-07",
+    "long": 84.4369,
+    "lat": 20.1358,
+    "Dead": 0,
+    "Displaced": 0,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1994-10-27",
+    "Ended": "1994-10-31",
+    "long": 78.7248,
+    "lat": 10.7214,
+    "Dead": 40,
+    "Displaced": 0,
+    "MainCause": "Tropical cyclone",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1994-10-30",
+    "Ended": "1994-11-04",
+    "long": 80.0422,
+    "lat": 16.2498,
+    "Dead": 230,
+    "Displaced": 16000,
+    "MainCause": "Tropical cyclone",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1995-06-02",
+    "Ended": "1995-06-03",
+    "long": 92.8575,
+    "lat": 23.2582,
+    "Dead": 40,
+    "Displaced": 3200,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1995-06-20",
+    "Ended": "1995-06-23",
+    "long": 92.8902,
+    "lat": 26.0363,
+    "Dead": 17,
+    "Displaced": 1000000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1995-09-01",
+    "Ended": "1995-09-20",
+    "long": 76.8263,
+    "lat": 28.2424,
+    "Dead": 600,
+    "Displaced": 2000000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1995-09-05",
+    "Ended": "1995-09-08",
+    "long": 88.4616,
+    "lat": 27.5887,
+    "Dead": 35,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1995-09-26",
+    "Ended": "1995-10-02",
+    "long": 87.3749,
+    "lat": 22.4615,
+    "Dead": 144,
+    "Displaced": 510000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1995-10-20",
+    "Ended": "1995-10-23",
+    "long": 80.612,
+    "lat": 16.4132,
+    "Dead": 94,
+    "Displaced": 12000,
+    "MainCause": "Tropical cyclone",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1996-06-10",
+    "Ended": "1996-06-30",
+    "long": 73.762,
+    "lat": 26.5766,
+    "Dead": 63,
+    "Displaced": 20000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1996-07-10",
+    "Ended": "1996-07-24",
+    "long": 92.3599,
+    "lat": 27.4105,
+    "Dead": 82,
+    "Displaced": 3000000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1996-07-17",
+    "Ended": "1996-08-10",
+    "long": 85.6883,
+    "lat": 24.7685,
+    "Dead": 74,
+    "Displaced": 4000000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1996-10-21",
+    "Ended": "1996-10-25",
+    "long": 78.7288,
+    "lat": 15.0341,
+    "Dead": 326,
+    "Displaced": 100000,
+    "MainCause": "Heavy Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1996-11-06",
+    "Ended": "1996-11-10",
+    "long": 81.7657,
+    "lat": 17.0009,
+    "Dead": 2500,
+    "Displaced": 140000,
+    "MainCause": "Tropical Cyclone",
+    "Severity": 2.0
+  },
+  {
+    "Began": "1997-08-01",
+    "Ended": "1997-08-11",
+    "long": 86.2554,
+    "lat": 24.0572,
+    "Dead": 24,
+    "Displaced": 100000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1997-08-08",
+    "Ended": "1997-08-14",
+    "long": 77.3409,
+    "lat": 31.7905,
+    "Dead": 200,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1997-06-22",
+    "Ended": "1997-08-26",
+    "long": 71.3091,
+    "lat": 22.4404,
+    "Dead": 273,
+    "Displaced": 20000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1997-07-05",
+    "Ended": "1997-07-22",
+    "long": 76.6811,
+    "lat": 9.49041,
+    "Dead": 100,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1997-07-05",
+    "Ended": "1997-07-14",
+    "long": 92.9144,
+    "lat": 26.0909,
+    "Dead": 97,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1997-08-22",
+    "Ended": "1997-08-26",
+    "long": 74.8298,
+    "lat": 33.9398,
+    "Dead": 26,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1997-08-19",
+    "Ended": "1997-08-24",
+    "long": 75.4418,
+    "lat": 18.8234,
+    "Dead": 50,
+    "Displaced": 10000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1997-09-19",
+    "Ended": "1997-09-24",
+    "long": 82.1012,
+    "lat": 16.9874,
+    "Dead": 32,
+    "Displaced": 20000,
+    "MainCause": "Tropical cyclone",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1997-12-04",
+    "Ended": "1997-12-09",
+    "long": 78.9883,
+    "lat": 13.8493,
+    "Dead": 6,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1998-06-09",
+    "Ended": "1998-06-11",
+    "long": 68.8677,
+    "lat": 24.0181,
+    "Dead": 1126,
+    "Displaced": 15000,
+    "MainCause": "Extra-tropical cyclone",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1998-09-16",
+    "Ended": "1998-09-18",
+    "long": 74.4164,
+    "lat": 20.4037,
+    "Dead": 12,
+    "Displaced": 50000,
+    "MainCause": "Dam/Levy, break or release",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1998-10-01",
+    "Ended": "1998-10-20",
+    "long": 79.4042,
+    "lat": 16.1464,
+    "Dead": 230,
+    "Displaced": 80000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1999-09-24",
+    "Ended": "1999-09-29",
+    "long": 88.9474,
+    "lat": 23.3997,
+    "Dead": 45,
+    "Displaced": 0,
+    "MainCause": "Brief torrential rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "1999-10-29",
+    "Ended": "1999-11-12",
+    "long": 85.3527,
+    "lat": 21.1735,
+    "Dead": 9803,
+    "Displaced": 10000000,
+    "MainCause": "Tropical cyclone",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2000-08-02",
+    "Ended": "2000-08-30",
+    "long": 94.643,
+    "lat": 27.094,
+    "Dead": 637,
+    "Displaced": 10504000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2001-06-05",
+    "Ended": "2001-06-22",
+    "long": 92.0058,
+    "lat": 24.4457,
+    "Dead": 15,
+    "Displaced": 800000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2001-07-04",
+    "Ended": "2001-07-16",
+    "long": 76.423,
+    "lat": 9.72651,
+    "Dead": 86,
+    "Displaced": 40000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2001-09-07",
+    "Ended": "2001-09-24",
+    "long": 84.87,
+    "lat": 26.5321,
+    "Dead": 146,
+    "Displaced": 30000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2002-02-02",
+    "Ended": "2002-02-05",
+    "long": 78.7843,
+    "lat": 10.4517,
+    "Dead": 11,
+    "Displaced": 0,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2002-06-16",
+    "Ended": "2002-06-22",
+    "long": 95.3833,
+    "lat": 27.8034,
+    "Dead": 0,
+    "Displaced": 25000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2002-06-25",
+    "Ended": "2002-06-26",
+    "long": 88.9351,
+    "lat": 22.342,
+    "Dead": 4,
+    "Displaced": 11000,
+    "MainCause": "Dam/Levy, break or release",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2002-06-26",
+    "Ended": "2002-07-03",
+    "long": 73.6623,
+    "lat": 20.8681,
+    "Dead": 169,
+    "Displaced": 28000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2002-06-21",
+    "Ended": "2002-08-28",
+    "long": 89.2696,
+    "lat": 25.8418,
+    "Dead": 503,
+    "Displaced": 15000000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2002-08-11",
+    "Ended": "2002-08-13",
+    "long": 78.5235,
+    "lat": 30.5622,
+    "Dead": 33,
+    "Displaced": 0,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2002-09-03",
+    "Ended": "2002-09-06",
+    "long": 73.2201,
+    "lat": 21.5391,
+    "Dead": 22,
+    "Displaced": 5000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2002-10-10",
+    "Ended": "2002-10-16",
+    "long": 75.527,
+    "lat": 11.8739,
+    "Dead": 11,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2003-06-21",
+    "Ended": "2003-06-24",
+    "long": 74.9274,
+    "lat": 12.9158,
+    "Dead": 4,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2003-06-20",
+    "Ended": "2003-06-26",
+    "long": 73.44,
+    "lat": 21.3961,
+    "Dead": 4,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2003-07-29",
+    "Ended": "2003-08-02",
+    "long": 73.9596,
+    "lat": 21.9811,
+    "Dead": 2,
+    "Displaced": 14000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2003-07-29",
+    "Ended": "2003-08-03",
+    "long": 79.2948,
+    "lat": 19.1881,
+    "Dead": 2,
+    "Displaced": 14000,
+    "MainCause": "Monsoonal Rain and Dam Break",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2003-08-27",
+    "Ended": "2003-10-20",
+    "long": 85.8936,
+    "lat": 20.6258,
+    "Dead": 67,
+    "Displaced": 3000000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2004-06-09",
+    "Ended": "2004-06-11",
+    "long": 75.4747,
+    "lat": 12.1226,
+    "Dead": 45,
+    "Displaced": 1000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2004-06-20",
+    "Ended": "2004-10-07",
+    "long": 85.8918,
+    "lat": 25.4989,
+    "Dead": 3000,
+    "Displaced": 40000000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2004-08-01",
+    "Ended": "2004-09-08",
+    "long": 73.7641,
+    "lat": 21.0247,
+    "Dead": 210,
+    "Displaced": 100000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2004-10-07",
+    "Ended": "2004-10-18",
+    "long": 89.4002,
+    "lat": 24.6862,
+    "Dead": 210,
+    "Displaced": 100000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2005-06-26",
+    "Ended": "2005-06-29",
+    "long": 78.4423,
+    "lat": 31.6718,
+    "Dead": 6,
+    "Displaced": 5000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2005-06-28",
+    "Ended": "2005-07-15",
+    "long": 73.0739,
+    "lat": 21.433,
+    "Dead": 202,
+    "Displaced": 500000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2005-06-29",
+    "Ended": "2005-07-03",
+    "long": 86.4305,
+    "lat": 20.9765,
+    "Dead": 1,
+    "Displaced": 140000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2005-07-02",
+    "Ended": "2005-07-15",
+    "long": 80.1999,
+    "lat": 24.1288,
+    "Dead": 62,
+    "Displaced": 49000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2005-07-07",
+    "Ended": "2005-07-27",
+    "long": 87.0126,
+    "lat": 27.4363,
+    "Dead": 40,
+    "Displaced": 3000000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2005-07-24",
+    "Ended": "2005-08-05",
+    "long": 73.435,
+    "lat": 17.9836,
+    "Dead": 987,
+    "Displaced": 160000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2005-07-23",
+    "Ended": "2005-08-16",
+    "long": 79.9654,
+    "lat": 16.9772,
+    "Dead": 126,
+    "Displaced": 100000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2005-07-30",
+    "Ended": "2005-08-03",
+    "long": 86.2759,
+    "lat": 20.9915,
+    "Dead": 8,
+    "Displaced": 344857,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2005-08-26",
+    "Ended": "2005-08-30",
+    "long": 83.2115,
+    "lat": 25.886,
+    "Dead": 21,
+    "Displaced": 0,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2005-09-14",
+    "Ended": "2005-09-30",
+    "long": 82.5389,
+    "lat": 21.1139,
+    "Dead": 89,
+    "Displaced": 550000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2005-09-16",
+    "Ended": "2005-10-05",
+    "long": 79.3734,
+    "lat": 28.1973,
+    "Dead": 23,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2005-09-22",
+    "Ended": "2005-10-11",
+    "long": 73.4733,
+    "lat": 21.7139,
+    "Dead": 15,
+    "Displaced": 0,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2005-10-21",
+    "Ended": "2005-10-28",
+    "long": 87.9347,
+    "lat": 21.9409,
+    "Dead": 13,
+    "Displaced": 3000000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2005-10-23",
+    "Ended": "2005-12-09",
+    "long": 78.7317,
+    "lat": 11.7804,
+    "Dead": 279,
+    "Displaced": 300000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2006-04-15",
+    "Ended": "2006-04-18",
+    "long": 82.8115,
+    "lat": 17.4335,
+    "Dead": 20,
+    "Displaced": 0,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2006-05-31",
+    "Ended": "2006-06-04",
+    "long": 75.2343,
+    "lat": 18.7332,
+    "Dead": 41,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2006-05-25",
+    "Ended": "2006-06-02",
+    "long": 76.0498,
+    "lat": 10.5443,
+    "Dead": 32,
+    "Displaced": 10800,
+    "MainCause": "Monsoonal rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2006-05-31",
+    "Ended": "2006-07-24",
+    "long": 94.0245,
+    "lat": 26.5993,
+    "Dead": 21,
+    "Displaced": 600000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2006-06-24",
+    "Ended": "2006-08-03",
+    "long": 83.6713,
+    "lat": 25.6151,
+    "Dead": 160,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2006-07-03",
+    "Ended": "2006-07-08",
+    "long": 83.6477,
+    "lat": 19.1719,
+    "Dead": 33,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2006-07-03",
+    "Ended": "2006-07-06",
+    "long": 72.8816,
+    "lat": 19.1028,
+    "Dead": 9,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2006-07-04",
+    "Ended": "2006-07-07",
+    "long": 71.3097,
+    "lat": 22.4114,
+    "Dead": 24,
+    "Displaced": 8400,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2006-07-28",
+    "Ended": "2006-09-12",
+    "long": 73.8242,
+    "lat": 20.1943,
+    "Dead": 457,
+    "Displaced": 140000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2006-08-01",
+    "Ended": "2006-09-10",
+    "long": 81.5288,
+    "lat": 18.1046,
+    "Dead": 185,
+    "Displaced": 2000000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2006-08-29",
+    "Ended": "2006-09-04",
+    "long": 81.5174,
+    "lat": 27.5853,
+    "Dead": 42,
+    "Displaced": 50000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2006-08-31",
+    "Ended": "2006-09-11",
+    "long": 73.8842,
+    "lat": 32.8864,
+    "Dead": 39,
+    "Displaced": 3000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2006-09-18",
+    "Ended": "2006-10-05",
+    "long": 83.7466,
+    "lat": 19.73,
+    "Dead": 250,
+    "Displaced": 50000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2006-10-26",
+    "Ended": "2006-11-04",
+    "long": 79.9324,
+    "lat": 14.1349,
+    "Dead": 47,
+    "Displaced": 225000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2007-03-20",
+    "Ended": "2007-03-31",
+    "long": 74.2156,
+    "lat": 33.4819,
+    "Dead": 12,
+    "Displaced": 2000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2007-06-18",
+    "Ended": "2007-06-26",
+    "long": 94.0189,
+    "lat": 26.2558,
+    "Dead": 15,
+    "Displaced": 200000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2007-06-22",
+    "Ended": "2007-07-04",
+    "long": 78.1615,
+    "lat": 14.945,
+    "Dead": 127,
+    "Displaced": 200000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2007-06-30",
+    "Ended": "2007-07-13",
+    "long": 81.8601,
+    "lat": 20.0539,
+    "Dead": 29,
+    "Displaced": 50000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2007-07-01",
+    "Ended": "2007-07-06",
+    "long": 77.5237,
+    "lat": 21.0263,
+    "Dead": 62,
+    "Displaced": 10000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2007-07-01",
+    "Ended": "2007-07-13",
+    "long": 72.2495,
+    "lat": 22.0231,
+    "Dead": 225,
+    "Displaced": 63000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2007-07-03",
+    "Ended": "2007-09-22",
+    "long": 88.4871,
+    "lat": 22.6315,
+    "Dead": 958,
+    "Displaced": 3000000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2007-07-12",
+    "Ended": "2007-10-10",
+    "long": 95.263,
+    "lat": 27.5773,
+    "Dead": 96,
+    "Displaced": 11100000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2007-07-16",
+    "Ended": "2007-07-20",
+    "long": 76.3115,
+    "lat": 10.3906,
+    "Dead": 44,
+    "Displaced": 35000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2007-08-03",
+    "Ended": "2007-08-27",
+    "long": 86.1978,
+    "lat": 20.4525,
+    "Dead": 15,
+    "Displaced": 20000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2007-08-08",
+    "Ended": "2007-08-15",
+    "long": 70.925,
+    "lat": 22.6824,
+    "Dead": 12,
+    "Displaced": 0,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2007-08-12",
+    "Ended": "2007-08-17",
+    "long": 76.5268,
+    "lat": 31.2388,
+    "Dead": 76,
+    "Displaced": 15000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2007-09-16",
+    "Ended": "2007-10-07",
+    "long": 79.878,
+    "lat": 15.7067,
+    "Dead": 94,
+    "Displaced": 20000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2007-09-22",
+    "Ended": "2007-10-08",
+    "long": 86.4033,
+    "lat": 20.9096,
+    "Dead": 80,
+    "Displaced": 400000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2007-10-17",
+    "Ended": "2007-10-24",
+    "long": 93.9705,
+    "lat": 24.7214,
+    "Dead": 2,
+    "Displaced": 30000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2007-10-27",
+    "Ended": "2007-11-01",
+    "long": 79.7002,
+    "lat": 12.725,
+    "Dead": 29,
+    "Displaced": 50000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2008-03-20",
+    "Ended": "2008-03-27",
+    "long": 78.7172,
+    "lat": 10.762,
+    "Dead": 37,
+    "Displaced": 10000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2008-05-24",
+    "Ended": "2008-05-28",
+    "long": 93.755,
+    "lat": 26.4,
+    "Dead": 0,
+    "Displaced": 0,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2008-06-07",
+    "Ended": "2008-06-22",
+    "long": 91.5452,
+    "lat": 25.1835,
+    "Dead": 176,
+    "Displaced": 1600000,
+    "MainCause": "Heavy Rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2008-07-05",
+    "Ended": "2008-07-14",
+    "long": 90.1201,
+    "lat": 25.2411,
+    "Dead": 350,
+    "Displaced": 70000,
+    "MainCause": "Monsoon Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2008-07-20",
+    "Ended": "2008-08-08",
+    "long": 89.7871,
+    "lat": 27.4995,
+    "Dead": 142,
+    "Displaced": 225000,
+    "MainCause": "monsoonal rainfall",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2008-08-05",
+    "Ended": "2008-08-11",
+    "long": 81.3801,
+    "lat": 16.6523,
+    "Dead": 74,
+    "Displaced": 0,
+    "MainCause": "Heavy monsoon rains",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2008-08-30",
+    "Ended": "2008-09-08",
+    "long": 94.5503,
+    "lat": 27.0442,
+    "Dead": 900,
+    "Displaced": 1000000,
+    "MainCause": "Monsoon Rains",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2008-09-22",
+    "Ended": "2008-09-29",
+    "long": 84.4064,
+    "lat": 20.9522,
+    "Dead": 2400,
+    "Displaced": 0,
+    "MainCause": "Dam release and Heavy  Rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2009-07-01",
+    "Ended": "2009-07-06",
+    "long": 84.7692,
+    "lat": 20.2249,
+    "Dead": 0,
+    "Displaced": 500000,
+    "MainCause": "Heavy Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2009-07-11",
+    "Ended": "2009-07-17",
+    "long": 74.7271,
+    "lat": 15.3059,
+    "Dead": 0,
+    "Displaced": 0,
+    "MainCause": "Heavy Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2009-07-03",
+    "Ended": "2009-07-06",
+    "long": 93.8215,
+    "lat": 27.481,
+    "Dead": 6,
+    "Displaced": 0,
+    "MainCause": "Torrential Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2009-08-01",
+    "Ended": "2009-08-04",
+    "long": 85.5,
+    "lat": 26.5,
+    "Dead": 0,
+    "Displaced": 3000,
+    "MainCause": "Levee failure",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2009-08-15",
+    "Ended": "2009-08-27",
+    "long": 80.7483,
+    "lat": 27.629,
+    "Dead": 14,
+    "Displaced": 1000000,
+    "MainCause": "Dam release and Heavy  Ra",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2009-08-18",
+    "Ended": "2009-08-27",
+    "long": 94.143,
+    "lat": 26.8177,
+    "Dead": 0,
+    "Displaced": 300000,
+    "MainCause": "Monsoon Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2009-09-06",
+    "Ended": "2009-09-10",
+    "long": 88.0605,
+    "lat": 22.5263,
+    "Dead": 0,
+    "Displaced": 37000,
+    "MainCause": "Dam release",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2009-09-25",
+    "Ended": "2009-10-12",
+    "long": 78.233,
+    "lat": 15.7081,
+    "Dead": 303,
+    "Displaced": 0,
+    "MainCause": "Heavy Rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2009-11-03",
+    "Ended": "2009-11-08",
+    "long": 77.8452,
+    "lat": 11.4729,
+    "Dead": 70,
+    "Displaced": 0,
+    "MainCause": "Torrential Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2010-03-24",
+    "Ended": "2010-03-26",
+    "long": 94.6126,
+    "lat": 27.2504,
+    "Dead": 0,
+    "Displaced": 0,
+    "MainCause": "Monsoon Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2010-04-18",
+    "Ended": "2010-04-21",
+    "long": 91.8623,
+    "lat": 26.3166,
+    "Dead": 0,
+    "Displaced": 300,
+    "MainCause": "Heavy Rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2010-05-15",
+    "Ended": "2010-06-26",
+    "long": 93.1226,
+    "lat": 26.6381,
+    "Dead": 0,
+    "Displaced": 10000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2010-05-18",
+    "Ended": "2010-05-24",
+    "long": 79.4844,
+    "lat": 15.2182,
+    "Dead": 27,
+    "Displaced": 50000,
+    "MainCause": "Heavy rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2010-07-05",
+    "Ended": "2010-07-15",
+    "long": 74.7785,
+    "lat": 30.1895,
+    "Dead": 98,
+    "Displaced": 523000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2010-07-12",
+    "Ended": "2010-07-14",
+    "long": 86.1983,
+    "lat": 25.5869,
+    "Dead": 0,
+    "Displaced": 5000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2010-08-06",
+    "Ended": "2010-08-08",
+    "long": 76.1256,
+    "lat": 33.5267,
+    "Dead": 150,
+    "Displaced": 180,
+    "MainCause": "Torrential Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2010-09-05",
+    "Ended": "2010-09-28",
+    "long": 76.05,
+    "lat": 25.965,
+    "Dead": 0,
+    "Displaced": 12500,
+    "MainCause": "Torrential Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2010-09-01",
+    "Ended": "2010-09-17",
+    "long": 80.055,
+    "lat": 16.29,
+    "Dead": 0,
+    "Displaced": 78000,
+    "MainCause": "Monsoon Rains",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2010-09-05",
+    "Ended": "2010-09-17",
+    "long": 92.25,
+    "lat": 26.235,
+    "Dead": 1,
+    "Displaced": 30000,
+    "MainCause": "Torrential Rains",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2010-09-18",
+    "Ended": "2010-09-30",
+    "long": 82.845,
+    "lat": 26.73,
+    "Dead": 88,
+    "Displaced": 15000,
+    "MainCause": "Monsoon Rains",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2010-09-18",
+    "Ended": "2010-09-20",
+    "long": 87.75,
+    "lat": 25.695,
+    "Dead": 0,
+    "Displaced": 0,
+    "MainCause": "Monsoon Rains",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2010-11-15",
+    "Ended": "2010-12-07",
+    "long": 78.4773,
+    "lat": 9.88679,
+    "Dead": 170,
+    "Displaced": 0,
+    "MainCause": "Monsoon Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2011-06-01",
+    "Ended": "2011-06-13",
+    "long": 76.7588,
+    "lat": 10.8365,
+    "Dead": 4,
+    "Displaced": 500,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2011-06-18",
+    "Ended": "2011-06-21",
+    "long": 85.8723,
+    "lat": 20.7933,
+    "Dead": 5,
+    "Displaced": 0,
+    "MainCause": "Torrential Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2011-07-01",
+    "Ended": "2011-07-22",
+    "long": 86.1969,
+    "lat": 26.0844,
+    "Dead": 0,
+    "Displaced": 3000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2011-07-01",
+    "Ended": "2011-07-22",
+    "long": 94.0349,
+    "lat": 27.3624,
+    "Dead": 0,
+    "Displaced": 0,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2011-07-23",
+    "Ended": "2011-08-09",
+    "long": 80.9261,
+    "lat": 28.5244,
+    "Dead": 19,
+    "Displaced": 200000,
+    "MainCause": "Dam releases, Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2011-08-10",
+    "Ended": "2011-09-13",
+    "long": 88.3453,
+    "lat": 22.3056,
+    "Dead": 47,
+    "Displaced": 700000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2011-08-15",
+    "Ended": "2011-10-02",
+    "long": 86.2422,
+    "lat": 26.3755,
+    "Dead": 158,
+    "Displaced": 70000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2011-08-15",
+    "Ended": "2011-09-08",
+    "long": 92.1815,
+    "lat": 26.5897,
+    "Dead": 7,
+    "Displaced": 11000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2011-08-25",
+    "Ended": "2011-09-13",
+    "long": 73.9531,
+    "lat": 22.3021,
+    "Dead": 0,
+    "Displaced": 5000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2011-09-05",
+    "Ended": "2011-10-02",
+    "long": 86.0022,
+    "lat": 20.6511,
+    "Dead": 40,
+    "Displaced": 15000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2012-06-06",
+    "Ended": "2012-07-16",
+    "long": 92.4354,
+    "lat": 26.5659,
+    "Dead": 109,
+    "Displaced": 400000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2012-07-04",
+    "Ended": "2012-07-23",
+    "long": 86.557,
+    "lat": 26.1094,
+    "Dead": 9,
+    "Displaced": 1500,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2012-08-04",
+    "Ended": "2012-08-06",
+    "long": 78.8529,
+    "lat": 30.1135,
+    "Dead": 30,
+    "Displaced": 1200,
+    "MainCause": "Torrential Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2012-08-03",
+    "Ended": "2012-08-06",
+    "long": 82.3216,
+    "lat": 19.4398,
+    "Dead": 0,
+    "Displaced": 2000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2012-08-16",
+    "Ended": "2012-08-20",
+    "long": 82.7962,
+    "lat": 20.9855,
+    "Dead": 1,
+    "Displaced": 210,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2012-09-16",
+    "Ended": "2012-09-18",
+    "long": 76.8569,
+    "lat": 31.3063,
+    "Dead": 45,
+    "Displaced": 200,
+    "MainCause": "Torrential Rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2012-09-19",
+    "Ended": "2012-10-15",
+    "long": 93.6379,
+    "lat": 26.8031,
+    "Dead": 21,
+    "Displaced": 2000000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2012-11-04",
+    "Ended": "2012-11-08",
+    "long": 78.8042,
+    "lat": 11.8283,
+    "Dead": 40,
+    "Displaced": 70000,
+    "MainCause": "Tropical Storm Nilam",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2013-06-12",
+    "Ended": "2013-06-27",
+    "long": 76.6135,
+    "lat": 32.7135,
+    "Dead": 5748,
+    "Displaced": 75000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2013-06-11",
+    "Ended": "2013-06-18",
+    "long": 82.5285,
+    "lat": 21.9781,
+    "Dead": 0,
+    "Displaced": 8000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2013-06-23",
+    "Ended": "2013-07-15",
+    "long": 94.9182,
+    "lat": 27.387,
+    "Dead": 80,
+    "Displaced": 2000000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2013-10-12",
+    "Ended": "2013-10-14",
+    "long": 84.2495,
+    "lat": 21.2719,
+    "Dead": 27,
+    "Displaced": 250000,
+    "MainCause": "Tropical Storm Phailin",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2013-10-12",
+    "Ended": "2013-11-10",
+    "long": 85.9321,
+    "lat": 24.7174,
+    "Dead": 7,
+    "Displaced": 0,
+    "MainCause": "Heavy Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2014-06-23",
+    "Ended": "2014-06-25",
+    "long": 94.716,
+    "lat": 27.8115,
+    "Dead": 0,
+    "Displaced": 10000,
+    "MainCause": "Monsoonal Ran",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2014-07-20",
+    "Ended": "2014-07-29",
+    "long": 84.1258,
+    "lat": 20.7752,
+    "Dead": 6,
+    "Displaced": 15000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2014-08-11",
+    "Ended": "2014-09-08",
+    "long": 79.7586,
+    "lat": 27.3852,
+    "Dead": 31,
+    "Displaced": 4000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2014-08-14",
+    "Ended": "2014-09-08",
+    "long": 86.2537,
+    "lat": 26.1795,
+    "Dead": 0,
+    "Displaced": 10000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2014-08-15",
+    "Ended": "2014-09-08",
+    "long": 94.6542,
+    "lat": 27.6132,
+    "Dead": 1,
+    "Displaced": 75000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2014-09-24",
+    "Ended": "2014-10-11",
+    "long": 92.4891,
+    "lat": 26.7465,
+    "Dead": 59,
+    "Displaced": 30000,
+    "MainCause": "Monsoonal rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2014-10-12",
+    "Ended": "2014-10-27",
+    "long": 79.6967,
+    "lat": 18.4473,
+    "Dead": 42,
+    "Displaced": 0,
+    "MainCause": "Tropical Storm Hudhug",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2014-10-22",
+    "Ended": "2014-10-27",
+    "long": 78.2616,
+    "lat": 10.2916,
+    "Dead": 5,
+    "Displaced": 300,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2015-03-20",
+    "Ended": "2015-03-31",
+    "long": 76.4058,
+    "lat": 33.1767,
+    "Dead": 44,
+    "Displaced": 2907,
+    "MainCause": "Heavy Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2015-05-17",
+    "Ended": "2015-05-21",
+    "long": 79.1771,
+    "lat": 10.7121,
+    "Dead": 8,
+    "Displaced": 200,
+    "MainCause": "Torrential Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2015-06-02",
+    "Ended": "2015-06-29",
+    "long": 93.8747,
+    "lat": 26.9195,
+    "Dead": 3,
+    "Displaced": 9000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2015-06-24",
+    "Ended": "2015-06-29",
+    "long": 70.7643,
+    "lat": 21.8734,
+    "Dead": 81,
+    "Displaced": 9000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2015-07-15",
+    "Ended": "2015-08-19",
+    "long": 82.6165,
+    "lat": 26.2074,
+    "Dead": 206,
+    "Displaced": 300000,
+    "MainCause": "Monsoonal Rain and Tropical Storm K",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2015-08-13",
+    "Ended": "2015-09-11",
+    "long": 93.751,
+    "lat": 26.8946,
+    "Dead": 5,
+    "Displaced": 18000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2015-11-10",
+    "Ended": "2015-12-04",
+    "long": 78.8554,
+    "lat": 11.8278,
+    "Dead": 180,
+    "Displaced": 400000,
+    "MainCause": "Tropical Storm Rovan",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2016-04-20",
+    "Ended": "2016-05-01",
+    "long": 95.6068,
+    "lat": 27.464,
+    "Dead": 18,
+    "Displaced": 3000,
+    "MainCause": "Heavy Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2016-06-29",
+    "Ended": "2016-08-26",
+    "long": 93.949,
+    "lat": 27.068,
+    "Dead": 30,
+    "Displaced": 1800,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2016-07-07",
+    "Ended": "2016-08-03",
+    "long": 80.8349,
+    "lat": 22.8107,
+    "Dead": 20,
+    "Displaced": 15000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2016-08-01",
+    "Ended": "2016-08-03",
+    "long": 73.4119,
+    "lat": 21.7477,
+    "Dead": 20,
+    "Displaced": 0,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2016-07-15",
+    "Ended": "2016-09-22",
+    "long": 85.1898,
+    "lat": 25.6099,
+    "Dead": 127,
+    "Displaced": 377097,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2016-09-21",
+    "Ended": "2016-10-16",
+    "long": 80.3401,
+    "lat": 17.6536,
+    "Dead": 17,
+    "Displaced": 3000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2017-06-02",
+    "Ended": "2017-07-03",
+    "long": 94.9387,
+    "lat": 27.6131,
+    "Dead": 6,
+    "Displaced": 113,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2017-07-15",
+    "Ended": "2017-07-20",
+    "long": 70.9375,
+    "lat": 21.898,
+    "Dead": 94,
+    "Displaced": 3000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2017-07-27",
+    "Ended": "2017-08-10",
+    "long": 88.0848,
+    "lat": 22.9061,
+    "Dead": 39,
+    "Displaced": 47000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2017-08-10",
+    "Ended": "2017-08-26",
+    "long": 79.076,
+    "lat": 28.1657,
+    "Dead": 253,
+    "Displaced": 422106,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2017-10-30",
+    "Ended": "2017-11-08",
+    "long": 79.0039,
+    "lat": 10.489,
+    "Dead": 4,
+    "Displaced": 4000,
+    "MainCause": "Heavy Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2018-05-29",
+    "Ended": "2018-05-30",
+    "long": 75.4408,
+    "lat": 14.3584,
+    "Dead": 3,
+    "Displaced": 300,
+    "MainCause": "Torrential Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2018-06-12",
+    "Ended": "2018-06-20",
+    "long": 93.3551,
+    "lat": 26.8948,
+    "Dead": 20,
+    "Displaced": 800000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2018-06-25",
+    "Ended": "2018-07-11",
+    "long": 75.1439,
+    "lat": 33.3752,
+    "Dead": 3,
+    "Displaced": 0,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2018-06-22",
+    "Ended": "2018-07-02",
+    "long": 73.783,
+    "lat": 20.9795,
+    "Dead": 20,
+    "Displaced": 0,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2018-07-06",
+    "Ended": "2018-07-11",
+    "long": 74.5501,
+    "lat": 19.5656,
+    "Dead": 1,
+    "Displaced": 300,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2018-07-09",
+    "Ended": "2018-07-19",
+    "long": 75.6883,
+    "lat": 12.5238,
+    "Dead": 12,
+    "Displaced": 34000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2018-08-07",
+    "Ended": "2018-08-10",
+    "long": 76.7275,
+    "lat": 9.39943,
+    "Dead": 20,
+    "Displaced": 1000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2018-08-02",
+    "Ended": "2018-08-10",
+    "long": 94.1222,
+    "lat": 27.2914,
+    "Dead": 0,
+    "Displaced": 25000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2018-09-01",
+    "Ended": "2018-09-07",
+    "long": 82.4309,
+    "lat": 25.7354,
+    "Dead": 20,
+    "Displaced": 1000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2018-08-15",
+    "Ended": "2018-09-07",
+    "long": 94.7655,
+    "lat": 26.0513,
+    "Dead": 11,
+    "Displaced": 2000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2018-09-23",
+    "Ended": "2018-10-02",
+    "long": 76.6285,
+    "lat": 31.3414,
+    "Dead": 28,
+    "Displaced": 935,
+    "MainCause": "Torrential Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2018-10-11",
+    "Ended": "2018-10-12",
+    "long": 83.3588,
+    "lat": 17.9,
+    "Dead": 7,
+    "Displaced": 300000,
+    "MainCause": "Tropical Storm Titli",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2019-05-03",
+    "Ended": "2019-05-07",
+    "long": 87.4662,
+    "lat": 21.5427,
+    "Dead": 43,
+    "Displaced": 1400000,
+    "MainCause": "Tropical Cyclone Fani",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2019-05-24",
+    "Ended": "2019-05-27",
+    "long": 91.5736,
+    "lat": 23.4991,
+    "Dead": 0,
+    "Displaced": 750,
+    "MainCause": "Heavy Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2019-06-27",
+    "Ended": "2019-07-13",
+    "long": 94.3944,
+    "lat": 27.3531,
+    "Dead": 3,
+    "Displaced": 50000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2019-07-01",
+    "Ended": "2019-07-05",
+    "long": 74.748,
+    "lat": 20.2969,
+    "Dead": 36,
+    "Displaced": 0,
+    "MainCause": "Torrential Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2019-08-06",
+    "Ended": "2019-08-09",
+    "long": 76.0842,
+    "lat": 11.4575,
+    "Dead": 0,
+    "Displaced": 22000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2019-08-05",
+    "Ended": "2019-08-09",
+    "long": 83.4825,
+    "lat": 19.1145,
+    "Dead": 25,
+    "Displaced": 112500,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2019-09-13",
+    "Ended": "2019-09-22",
+    "long": 74.3521,
+    "lat": 25.3928,
+    "Dead": 0,
+    "Displaced": 4500,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2019-09-15",
+    "Ended": "2019-09-22",
+    "long": 77.3956,
+    "lat": 24.1511,
+    "Dead": 0,
+    "Displaced": 45000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2019-10-25",
+    "Ended": "2019-11-06",
+    "long": 94.2459,
+    "lat": 27.0678,
+    "Dead": 2,
+    "Displaced": 1000,
+    "MainCause": "Heavy Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2019-11-30",
+    "Ended": "2019-12-06",
+    "long": 78.8554,
+    "lat": 10.8488,
+    "Dead": 30,
+    "Displaced": 1000,
+    "MainCause": "Heavy Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2020-05-19",
+    "Ended": "2020-05-20",
+    "long": 85.4517,
+    "lat": 21.3074,
+    "Dead": 0,
+    "Displaced": 10000,
+    "MainCause": "Tropical Storm Amphan",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2020-05-23",
+    "Ended": "2020-06-03",
+    "long": 94.7779,
+    "lat": 27.3406,
+    "Dead": 30,
+    "Displaced": 10000,
+    "MainCause": "Tropical Storm Amphan",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2020-06-02",
+    "Ended": "2020-06-03",
+    "long": 75.2676,
+    "lat": 20.3337,
+    "Dead": 0,
+    "Displaced": 0,
+    "MainCause": "Tropical Storm Nisarga",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2020-06-20",
+    "Ended": "2020-07-30",
+    "long": 95.3099,
+    "lat": 27.9475,
+    "Dead": 0,
+    "Displaced": 30000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2020-07-12",
+    "Ended": "2020-07-18",
+    "long": 80.538,
+    "lat": 27.5459,
+    "Dead": 2,
+    "Displaced": 0,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2020-08-21",
+    "Ended": "2020-08-27",
+    "long": 77.4698,
+    "lat": 24.7095,
+    "Dead": 13,
+    "Displaced": 60,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2020-09-13",
+    "Ended": "2020-09-16",
+    "long": 95.0377,
+    "lat": 27.8486,
+    "Dead": 1,
+    "Displaced": 0,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2020-10-16",
+    "Ended": "2020-10-25",
+    "long": 79.2266,
+    "lat": 17.3444,
+    "Dead": 6,
+    "Displaced": 2100,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2021-01-13",
+    "Ended": "2021-01-25",
+    "long": 77.3956,
+    "lat": 9.3497,
+    "Dead": 0,
+    "Displaced": 843,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2021-02-07",
+    "Ended": "2021-02-08",
+    "long": 80.0555,
+    "lat": 30.0132,
+    "Dead": 9,
+    "Displaced": 140,
+    "MainCause": "Glacier collapse and dam breaks",
+    "Severity": 2.0
+  },
+  {
+    "Began": "2021-05-25",
+    "Ended": "2021-05-28",
+    "long": 85.5114,
+    "lat": 21.6184,
+    "Dead": 1,
+    "Displaced": 1500000,
+    "MainCause": "Tropical Storm Yaas and Storm Surge",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2021-05-16",
+    "Ended": "2021-05-23",
+    "long": 73.2139,
+    "lat": 18.202,
+    "Dead": 23,
+    "Displaced": 200000,
+    "MainCause": "Tropical Storm Tauktae",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2021-06-15",
+    "Ended": "2021-06-21",
+    "long": 80.6839,
+    "lat": 27.6821,
+    "Dead": 0,
+    "Displaced": 0,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.0
+  },
+  {
+    "Began": "2021-06-30",
+    "Ended": "2021-07-04",
+    "long": 94.2212,
+    "lat": 27.3659,
+    "Dead": 1,
+    "Displaced": 15000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2021-07-27",
+    "Ended": "2021-07-29",
+    "long": 74.7233,
+    "lat": 33.3259,
+    "Dead": 7,
+    "Displaced": 0,
+    "MainCause": "Torrential Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2021-07-22",
+    "Ended": "2021-07-30",
+    "long": 76.0347,
+    "lat": 14.5568,
+    "Dead": 9,
+    "Displaced": 31360,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2021-08-07",
+    "Ended": "2021-08-17",
+    "long": 86.229,
+    "lat": 25.2127,
+    "Dead": 12,
+    "Displaced": 85000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2021-09-12",
+    "Ended": "2021-09-19",
+    "long": 84.1258,
+    "lat": 19.5361,
+    "Dead": 15,
+    "Displaced": 24127,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2021-09-14",
+    "Ended": "2021-09-20",
+    "long": 87.9734,
+    "lat": 22.3238,
+    "Dead": 10,
+    "Displaced": 1300,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2021-09-15",
+    "Ended": "2021-09-26",
+    "long": 82.9876,
+    "lat": 27.1972,
+    "Dead": 58,
+    "Displaced": 1200,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  },
+  {
+    "Began": "2021-10-01",
+    "Ended": "2021-10-09",
+    "long": 87.961,
+    "lat": 23.7984,
+    "Dead": 11,
+    "Displaced": 500000,
+    "MainCause": "Monsoonal Rain",
+    "Severity": 1.5
+  }
+]

@@ -1,0 +1,417 @@
+.disaster-map-container {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  border: 2px solid #00ff00;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 
+    0 0 20px rgba(0, 255, 0, 0.3),
+    inset 0 0 20px rgba(0, 255, 0, 0.05);
+}
+
+.map-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1000;
+}
+
+.map-header h3 {
+  color: #00ff00;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Courier New', monospace;
+  text-shadow: 0 0 10px #00ff00;
+  margin: 0;
+}
+
+.map-legend {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: #888888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Courier New', monospace;
+}
+
+.legend-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 5px currentColor;
+}
+
+.legend-color.hospital-green {
+  background-color: #00ff00;
+}
+
+.legend-color.hospital-red {
+  background-color: #ff0000;
+}
+
+/* Disaster Map - Fixed Height to Prevent Black Screen */
+.disaster-map {
+  height: 500px;
+  width: 100%;
+}
+
+.map-wrapper {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Explicit height to prevent black screen */
+  min-height: 500px; /* Ensure minimum height */
+  border: 1px solid #00ff00;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #000000; /* Black background while loading */
+}
+
+/* Mandatory CSS to fix black screen - Override Leaflet default zero-height */
+.leaflet-container {
+  height: 500px !important;
+  width: 100% !important;
+  visibility: visible !important;
+  z-index: 0;
+}
+
+.map-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+  color: #00ff00;
+  font-family: 'Courier New', monospace;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  gap: 15px;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(0, 255, 0, 0.3);
+  border-top-color: #00ff00;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.map-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+  color: #ff0000;
+  font-family: 'Courier New', monospace;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  gap: 15px;
+  padding: 20px;
+}
+
+.error-icon {
+  font-size: 48px;
+  filter: drop-shadow(0 0 10px #ff0000);
+}
+
+.error-message {
+  text-align: center;
+  font-size: 14px;
+  color: #ff0000;
+  text-shadow: 0 0 10px #ff0000;
+}
+
+.error-retry {
+  padding: 10px 20px;
+  background: rgba(255, 0, 0, 0.2);
+  border: 2px solid #ff0000;
+  border-radius: 4px;
+  color: #ff0000;
+  font-family: 'Courier New', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 12px;
+}
+
+.error-retry:hover {
+  background: rgba(255, 0, 0, 0.4);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+/* Radar Sweep Animation */
+.radar-sweep {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1000;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    transparent 60deg,
+    rgba(0, 255, 0, 0.3) 60deg,
+    rgba(0, 255, 0, 0.5) 65deg,
+    transparent 70deg,
+    transparent 360deg
+  );
+  animation: radarPulse 3s ease-in-out infinite;
+}
+
+@keyframes radarPulse {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+/* Hospital Marker Styles */
+.hospital-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.hospital-marker-pulse {
+  animation: hospitalPulse 2s ease-in-out infinite;
+}
+
+@keyframes hospitalPulse {
+  0%, 100% {
+    box-shadow: 0 0 10px currentColor, 0 0 20px currentColor;
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 20px currentColor, 0 0 40px currentColor, 0 0 60px currentColor;
+    transform: scale(1.1);
+  }
+}
+
+/* Hospital Popup Styles */
+.hospital-popup {
+  min-width: 250px;
+  color: #000000;
+  font-family: 'Courier New', monospace;
+}
+
+.hospital-popup h4 {
+  margin: 0 0 10px 0;
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #00ff00;
+  padding-bottom: 5px;
+}
+
+.popup-status {
+  margin: 8px 0;
+  padding: 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.popup-status.status-normal {
+  background: rgba(0, 255, 0, 0.1);
+  color: #00aa00;
+  border: 1px solid #00ff00;
+}
+
+.popup-status.status-warning {
+  background: rgba(255, 170, 0, 0.1);
+  color: #ff8800;
+  border: 1px solid #ffaa00;
+}
+
+.popup-status.status-critical {
+  background: rgba(255, 0, 0, 0.1);
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  animation: criticalPulse 2s ease-in-out infinite;
+}
+
+@keyframes criticalPulse {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+  }
+}
+
+.popup-metric {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.popup-metric strong {
+  color: #333333;
+  margin-right: 5px;
+}
+
+.popup-warning {
+  margin-top: 10px;
+  padding: 8px;
+  background: #ff0000;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  animation: warningPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes warningPulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* Leaflet Overrides for Mission Control Theme */
+.leaflet-container {
+  background: #000000 !important;
+  font-family: 'Courier New', monospace;
+  height: 500px !important; /* Fixed height to prevent black screen */
+  width: 100% !important;
+  visibility: visible !important;
+  z-index: 0;
+}
+
+/* Ensure map tiles are visible */
+.leaflet-tile-container {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.leaflet-tile-pane {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #ffffff;
+  border: 2px solid #00ff00;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+}
+
+.leaflet-popup-tip {
+  background: #ffffff;
+  border: 1px solid #00ff00;
+}
+
+/* Heatmap Vulnerability Legend */
+.heatmap-legend {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.85);
+  border: 2px solid #00ff00;
+  border-radius: 8px;
+  padding: 12px;
+  z-index: 1000;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.heatmap-legend-title {
+  color: #00ff00;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-family: 'Courier New', monospace;
+  margin-bottom: 8px;
+  text-shadow: 0 0 5px #00ff00;
+  border-bottom: 1px solid rgba(0, 255, 0, 0.3);
+  padding-bottom: 5px;
+}
+
+.heatmap-legend-items {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.heatmap-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  color: #cccccc;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: 'Courier New', monospace;
+}
+
+.heatmap-legend-color {
+  width: 20px;
+  height: 12px;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .disaster-map-container {
+    height: auto;
+    min-height: 400px;
+  }
+  
+  .map-wrapper {
+    height: 400px !important;
+    min-height: 400px !important;
+  }
+  
+  .map-loading,
+  .map-error {
+    height: 400px;
+  }
+  
+  .map-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .map-legend {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+

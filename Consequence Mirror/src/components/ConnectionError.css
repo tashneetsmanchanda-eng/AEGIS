@@ -1,0 +1,126 @@
+.connection-error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  width: 100%;
+  padding: 40px;
+  background: rgba(255, 0, 0, 0.1);
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* TASK 3: Loading state styling - replace red error with orange loading state */
+.connection-error-container.loading-state {
+  background: rgba(255, 140, 0, 0.1);
+  border: 2px solid #FF8C00;
+}
+
+.error-icon {
+  font-size: 64px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.5));
+  animation: errorPulse 2s ease-in-out infinite;
+}
+
+/* TASK 3: Loading state icon animation */
+.connection-error-container.loading-state .error-icon {
+  filter: drop-shadow(0 0 10px rgba(255, 140, 0, 0.5));
+  animation: loadingSpin 2s linear infinite;
+}
+
+@keyframes loadingSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes errorPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+}
+
+.error-title {
+  color: #ff0000;
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+/* TASK 3: Loading state title color */
+.connection-error-container.loading-state .error-title {
+  color: #FF8C00;
+  text-shadow: 0 0 10px rgba(255, 140, 0, 0.5);
+}
+
+.error-message {
+  color: #ffffff;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background: rgba(255, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.error-details {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Courier New', monospace;
+  font-size: 12px;
+  text-align: left;
+  max-width: 500px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+.error-details ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.error-details li {
+  margin: 8px 0;
+}
+
+.error-retry-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: rgba(255, 0, 0, 0.2);
+  border: 2px solid #ff0000;
+  border-radius: 4px;
+  color: #ff0000;
+  font-family: 'Courier New', monospace;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.error-retry-button:hover {
+  background: rgba(255, 0, 0, 0.4);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+  transform: scale(1.05);
+}
+
+.error-retry-button:active {
+  transform: scale(0.95);
+}
+

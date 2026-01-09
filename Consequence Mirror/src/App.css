@@ -1,0 +1,56 @@
+/* Global scroll fix */
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: auto;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  overflow-y: visible;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f5f5;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+.leaflet-container {
+  height: 600px !important;
+  width: 100% !important;
+  background: #000 !important;
+  visibility: visible !important;
+}
+
+.error-box {
+  padding: 40px;
+  text-align: center;
+  background: #1a1a1a;
+  color: #fff;
+  border: 2px solid #ff8800;
+  border-radius: 8px;
+  margin: 40px;
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+}
+
+.mirror-section-wrapper {
+  scroll-margin-top: 100px; /* Offset for smooth scroll */
+  margin-top: 40px;
+}
+
+.mirror-placeholder {
+  background: white;
+  padding: 60px;
+  text-align: center;
+  border-radius: 8px;
+  color: #999;
+  font-size: 18px;
+  margin: 0 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+

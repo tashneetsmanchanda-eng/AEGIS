@@ -1,0 +1,188 @@
+.hospital-monitor {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  border: 2px solid #00ff00;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 
+    0 0 20px rgba(0, 255, 0, 0.3),
+    inset 0 0 20px rgba(0, 255, 0, 0.05);
+}
+
+.hospital-monitor::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 255, 0, 0.03) 2px,
+    rgba(0, 255, 0, 0.03) 4px
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hospital-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.hospital-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #00ff00;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Courier New', monospace;
+  text-shadow: 0 0 10px #00ff00;
+}
+
+.hospital-icon {
+  font-size: 20px;
+  filter: drop-shadow(0 0 8px #00ff00);
+}
+
+.hospital-specialty {
+  font-size: 11px;
+  color: #888888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Courier New', monospace;
+}
+
+/* EKG Container */
+.ekg-container {
+  background: #000000;
+  border: 1px solid #00ff00;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+  box-shadow: inset 0 0 10px rgba(0, 255, 0, 0.2);
+}
+
+.ekg-canvas {
+  width: 100%;
+  height: 60px;
+  display: block;
+  filter: drop-shadow(0 0 5px currentColor);
+}
+
+/* Metrics Display */
+.hospital-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.metric-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.metric-item.specialty {
+  grid-column: 1 / -1;
+  border-top: 1px solid rgba(0, 255, 0, 0.3);
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+.metric-label {
+  font-size: 10px;
+  color: #888888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.medical-icon {
+  font-size: 14px;
+  filter: drop-shadow(0 0 4px currentColor);
+  transition: transform 0.3s ease;
+}
+
+.metric-item:hover .medical-icon {
+  transform: scale(1.2);
+}
+
+.metric-value {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  text-shadow: 0 0 10px currentColor;
+  transition: color 0.3s ease;
+}
+
+.metric-bar-container {
+  width: 100%;
+  height: 6px;
+  background: #1a1a1a;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.metric-bar {
+  height: 100%;
+  border-radius: 3px;
+  box-shadow: 0 0 10px currentColor;
+  transition: background-color 0.3s ease;
+}
+
+/* Critical State Styling */
+.hospital-monitor.critical {
+  border-color: #ff0000;
+  box-shadow: 
+    0 0 30px rgba(255, 0, 0, 0.6),
+    inset 0 0 30px rgba(255, 0, 0, 0.1);
+  animation: critical-pulse 2s ease-in-out infinite;
+}
+
+@keyframes critical-pulse {
+  0%, 100% {
+    box-shadow: 
+      0 0 30px rgba(255, 0, 0, 0.6),
+      inset 0 0 30px rgba(255, 0, 0, 0.1);
+  }
+  50% {
+    box-shadow: 
+      0 0 50px rgba(255, 0, 0, 1),
+      inset 0 0 50px rgba(255, 0, 0, 0.2);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hospital-metrics {
+    grid-template-columns: 1fr;
+  }
+  
+  .hospital-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+}
+

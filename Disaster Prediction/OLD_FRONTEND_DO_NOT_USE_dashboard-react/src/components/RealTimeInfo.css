@@ -1,0 +1,129 @@
+.realtime-info {
+  background: rgba(17, 25, 40, 0.7);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+  border-radius: 20px;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+  background: rgba(59, 130, 246, 0.05);
+}
+
+.info-header h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  color: #f1f5f9;
+}
+
+.beta-badge {
+  background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.info-content {
+  padding: 1.5rem;
+}
+
+.info-content > p {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.integration-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.integration-card {
+  background: rgba(30, 41, 59, 0.4);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  border-radius: 12px;
+  padding: 1.25rem;
+  transition: all 0.2s ease;
+}
+
+.integration-card:hover {
+  background: rgba(30, 41, 59, 0.6);
+  border-color: rgba(59, 130, 246, 0.3);
+  transform: translateY(-2px);
+}
+
+.integration-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.integration-card h4 {
+  color: #f1f5f9;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+}
+
+.integration-card p {
+  color: #94a3b8;
+  font-size: 0.8rem;
+  margin: 0 0 0.75rem 0;
+  line-height: 1.4;
+}
+
+.integration-card code {
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  color: #93c5fd;
+  font-family: 'Fira Code', 'Consolas', monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.implementation-steps {
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.implementation-steps h4 {
+  color: #6ee7b7;
+  font-size: 0.95rem;
+  margin: 0 0 0.75rem 0;
+}
+
+.implementation-steps ol {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: #d1fae5;
+}
+
+.implementation-steps li {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.implementation-steps code {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: #6ee7b7;
+}

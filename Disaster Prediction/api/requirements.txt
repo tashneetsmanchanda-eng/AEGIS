@@ -1,0 +1,15 @@
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.7.4,<3.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+joblib>=1.3.0
+python-multipart>=0.0.6
+
+# CHESEAL dependencies (for decision analysis and testing)
+# Note: Core CHESEAL brain logic (cheseal_brain.py) doesn't require these,
+# but test_cheseal_manual.py uses prompt-toolkit for interactive testing
+prompt-toolkit>=3.0.0
+requests>=2.31.0

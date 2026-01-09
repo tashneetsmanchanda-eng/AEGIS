@@ -1,0 +1,78 @@
+.cost-of-inaction {
+  padding: 12px 20px;
+  background: rgba(255, 170, 0, 0.1);
+  border: 2px solid #ffaa00;
+  border-radius: 6px;
+  font-family: 'Courier New', monospace;
+  margin: 10px 0;
+}
+
+.cost-of-inaction.critical {
+  background: rgba(255, 0, 0, 0.15);
+  border-color: #ff0000;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+}
+
+.coi-label {
+  font-size: 10px;
+  color: #ffaa00;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.cost-of-inaction.critical .coi-label {
+  color: #ff0000;
+}
+
+.coi-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.coi-delay {
+  font-weight: bold;
+  color: #ffaa00;
+}
+
+.cost-of-inaction.critical .coi-delay {
+  color: #ff0000;
+}
+
+.coi-separator {
+  color: #888888;
+  font-weight: bold;
+}
+
+.coi-risk {
+  color: #ff8800;
+  font-weight: bold;
+}
+
+.cost-of-inaction.critical .coi-risk {
+  color: #ff0000;
+}
+
+.coi-damage {
+  color: #ff8800;
+  font-weight: bold;
+}
+
+.cost-of-inaction.critical .coi-damage {
+  color: #ff0000;
+}
+
+.coi-loss {
+  color: #ffaa00;
+  font-weight: bold;
+}
+
+.cost-of-inaction.critical .coi-loss {
+  color: #ff0000;
+}
+

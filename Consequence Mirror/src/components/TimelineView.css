@@ -1,0 +1,117 @@
+.timeline-view-container {
+  margin: 30px 0;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.timeline-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.timeline-table {
+  display: grid;
+  grid-template-columns: 200px repeat(3, 1fr);
+  gap: 12px;
+}
+
+.timeline-row {
+  display: contents;
+}
+
+.timeline-header {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 12px;
+  margin-bottom: 8px;
+}
+
+.timeline-metric {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.timeline-interval {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.timeline-value {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.timeline-value.normal {
+  color: #00ff00;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+.timeline-value.warning {
+  color: #ffaa00;
+  text-shadow: 0 0 10px rgba(255, 170, 0, 0.5);
+}
+
+.timeline-value.critical {
+  color: #ff0000;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  animation: pulse-critical 2s ease-in-out infinite;
+}
+
+@keyframes pulse-critical {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .timeline-table {
+    grid-template-columns: 150px repeat(3, 1fr);
+    gap: 8px;
+  }
+  
+  .timeline-metric,
+  .timeline-interval,
+  .timeline-value {
+    font-size: 11px;
+    padding: 8px;
+  }
+}
+
+
+
+

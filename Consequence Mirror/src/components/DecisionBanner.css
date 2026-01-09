@@ -1,0 +1,108 @@
+.decision-banner {
+  width: 100%;
+  padding: 20px 40px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  font-family: 'Courier New', monospace;
+  text-align: center;
+}
+
+.decision-banner.critical {
+  background: linear-gradient(135deg, rgba(255, 0, 0, 0.2) 0%, rgba(255, 0, 0, 0.1) 100%);
+  border: 3px solid #ff0000;
+  box-shadow: 
+    0 0 20px rgba(255, 0, 0, 0.5),
+    inset 0 0 20px rgba(255, 0, 0, 0.1);
+}
+
+.decision-banner.warning {
+  background: linear-gradient(135deg, rgba(255, 170, 0, 0.2) 0%, rgba(255, 170, 0, 0.1) 100%);
+  border: 3px solid #ffaa00;
+  box-shadow: 
+    0 0 20px rgba(255, 170, 0, 0.5),
+    inset 0 0 20px rgba(255, 170, 0, 0.1);
+}
+
+.decision-banner.monitor {
+  background: linear-gradient(135deg, rgba(255, 140, 0, 0.2) 0%, rgba(255, 140, 0, 0.1) 100%);
+  border: 3px solid #ff8c00;
+  box-shadow: 
+    0 0 20px rgba(255, 140, 0, 0.5),
+    inset 0 0 20px rgba(255, 140, 0, 0.1);
+}
+
+.decision-banner.all-clear {
+  background: linear-gradient(135deg, rgba(0, 255, 0, 0.2) 0%, rgba(0, 255, 0, 0.1) 100%);
+  border: 3px solid #00ff00;
+  box-shadow: 
+    0 0 20px rgba(0, 255, 0, 0.5),
+    inset 0 0 20px rgba(0, 255, 0, 0.1);
+}
+
+.decision-banner.optimal {
+  background: linear-gradient(135deg, rgba(0, 255, 0, 0.2) 0%, rgba(0, 255, 0, 0.1) 100%);
+  border: 3px solid #00ff00;
+  box-shadow: 
+    0 0 20px rgba(0, 255, 0, 0.5),
+    inset 0 0 20px rgba(0, 255, 0, 0.1);
+}
+
+.decision-banner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.decision-label {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.decision-action {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-shadow: 0 0 10px currentColor;
+}
+
+.decision-banner.critical .decision-action {
+  color: #ff0000;
+}
+
+.decision-banner.warning .decision-action {
+  color: #ffaa00;
+}
+
+.decision-banner.monitor .decision-action {
+  color: #ff8c00;
+}
+
+.decision-banner.all-clear .decision-action {
+  color: #00ff00;
+}
+
+.decision-banner.optimal .decision-action {
+  color: #00ff00;
+}
+
+.decision-confidence {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  opacity: 0.95;
+  margin-top: 8px;
+  padding: 8px 16px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: inline-block;
+}
+

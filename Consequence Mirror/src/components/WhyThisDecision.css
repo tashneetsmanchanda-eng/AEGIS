@@ -1,0 +1,144 @@
+.why-decision-panel {
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid #00aaff;
+  border-radius: 8px;
+  margin: 20px 0;
+  font-family: 'Courier New', monospace;
+  overflow: hidden;
+}
+
+.why-decision-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  cursor: pointer;
+  user-select: none;
+  background: rgba(0, 170, 255, 0.1);
+  transition: background 0.3s;
+}
+
+.why-decision-header:hover {
+  background: rgba(0, 170, 255, 0.2);
+}
+
+.why-decision-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.why-decision-icon {
+  font-size: 20px;
+}
+
+.why-decision-subtitle {
+  font-size: 11px;
+  color: #00aaff;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: 0.5px;
+  margin-left: 10px;
+}
+
+.why-decision-arrow {
+  color: #00aaff;
+  font-size: 14px;
+  transition: transform 0.3s;
+}
+
+.why-decision-content {
+  padding: 20px;
+  border-top: 1px solid rgba(0, 170, 255, 0.3);
+}
+
+.why-decision-drivers {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.drivers-label {
+  font-size: 12px;
+  color: #00aaff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.risk-driver-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px;
+  background: rgba(0, 170, 255, 0.05);
+  border-left: 3px solid #00aaff;
+  border-radius: 4px;
+}
+
+.driver-number {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00aaff;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.driver-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.driver-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.driver-value {
+  font-size: 12px;
+  color: #aaaaaa;
+  font-family: 'Courier New', monospace;
+}
+
+.driver-impact {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.why-decision-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(0, 170, 255, 0.2);
+}
+
+.azure-label {
+  font-size: 10px;
+  color: #00aaff;
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster & Disease Prediction System</title>
+    <meta name="description" content="AI-powered prediction system for flood probability and post-disaster disease outbreaks including malaria, cholera, leptospirosis, and hepatitis.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🌊</span>
+                    <div class="logo-text">
+                        <h1>Disaster<span class="accent">Predict</span></h1>
+                        <span class="tagline">AI-Powered Risk Assessment</span>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <button class="nav-btn active" data-view="predict">Predict</button>
+                    <button class="nav-btn" data-view="about">About</button>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Prediction View -->
+            <section id="predict-view" class="view active">
+                <div class="content-grid">
+                    <!-- Input Form -->
+                    <div class="card form-card">
+                        <div class="card-header">
+                            <h2>🎛️ Environmental Conditions</h2>
+                            <p class="card-subtitle">Adjust parameters to predict disaster and disease risks</p>
+                        </div>
+                        <form id="prediction-form" class="prediction-form">
+                            <div class="form-section">
+                                <h3>🌧️ Weather & Climate</h3>
+                                <div class="form-group">
+                                    <label for="monsoon_intensity">
+                                        <span class="label-text">Monsoon Intensity</span>
+                                        <span class="label-value" id="monsoon_intensity_val">5</span>
+                                    </label>
+                                    <input type="range" id="monsoon_intensity" name="monsoon_intensity" 
+                                           min="1" max="10" value="5" step="1">
+                                    <div class="range-labels"><span>Low</span><span>High</span></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="climate_change">
+                                        <span class="label-text">Climate Change Impact</span>
+                                        <span class="label-value" id="climate_change_val">5</span>
+                                    </label>
+                                    <input type="range" id="climate_change" name="climate_change" 
+                                           min="1" max="10" value="5" step="1">
+                                    <div class="range-labels"><span>Low</span><span>High</span></div>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h3>🏗️ Infrastructure</h3>
+                                <div class="form-group">
+                                    <label for="drainage_systems">
+                                        <span class="label-text">Drainage Systems Quality</span>
+                                        <span class="label-value" id="drainage_systems_val">5</span>
+                                    </label>
+                                    <input type="range" id="drainage_systems" name="drainage_systems" 
+                                           min="1" max="10" value="5" step="1">
+                                    <div class="range-labels"><span>Poor</span><span>Excellent</span></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="deteriorating_infrastructure">
+                                        <span class="label-text">Infrastructure Deterioration</span>
+                                        <span class="label-value" id="deteriorating_infrastructure_val">5</span>
+                                    </label>
+                                    <input type="range" id="deteriorating_infrastructure" name="deteriorating_infrastructure" 
+                                           min="1" max="10" value="5" step="1">
+                                    <div class="range-labels"><span>Well Maintained</span><span>Severely Degraded</span></div>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h3>🌍 Environmental Factors</h3>
+                                <div class="form-row">
+                                    <div class="form-group half">
+                                        <label for="deforestation">
+                                            <span class="label-text">Deforestation</span>
+                                            <span class="label-value" id="deforestation_val">5</span>
+                                        </label>
+                                        <input type="range" id="deforestation" name="deforestation" 
+                                               min="1" max="10" value="5" step="1">
+                                    </div>
+                                    <div class="form-group half">
+                                        <label for="urbanization">
+                                            <span class="label-text">Urbanization</span>
+                                            <span class="label-value" id="urbanization_val">5</span>
+                                        </label>
+                                        <input type="range" id="urbanization" name="urbanization" 
+                                               min="1" max="10" value="5" step="1">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group half">
+                                        <label for="topography_drainage">
+                                            <span class="label-text">Topography Drainage</span>
+                                            <span class="label-value" id="topography_drainage_val">5</span>
+                                        </label>
+                                        <input type="range" id="topography_drainage" name="topography_drainage" 
+                                               min="1" max="10" value="5" step="1">
+                                    </div>
+                                    <div class="form-group half">
+                                        <label for="siltation">
+                                            <span class="label-text">Siltation</span>
+                                            <span class="label-value" id="siltation_val">5</span>
+                                        </label>
+                                        <input type="range" id="siltation" name="siltation" 
+                                               min="1" max="10" value="5" step="1">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h3>🏛️ Governance & Preparedness</h3>
+                                <div class="form-group">
+                                    <label for="disaster_preparedness">
+                                        <span class="label-text">Disaster Preparedness</span>
+                                        <span class="label-value" id="disaster_preparedness_val">5</span>
+                                    </label>
+                                    <input type="range" id="disaster_preparedness" name="disaster_preparedness" 
+                                           min="1" max="10" value="5" step="1">
+                                    <div class="range-labels"><span>Unprepared</span><span>Highly Prepared</span></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="river_management">
+                                        <span class="label-text">River Management</span>
+                                        <span class="label-value" id="river_management_val">5</span>
+                                    </label>
+                                    <input type="range" id="river_management" name="river_management" 
+                                           min="1" max="10" value="5" step="1">
+                                    <div class="range-labels"><span>Poor</span><span>Excellent</span></div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="submit-btn" id="submit-btn">
+                                <span class="btn-text">🔮 Generate Prediction</span>
+                                <span class="btn-loader" hidden>
+                                    <span class="spinner"></span>
+                                    Analyzing...
+                                </span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Results Panel -->
+                    <div class="results-panel">
+                        <!-- Flood Risk Card -->
+                        <div class="card result-card flood-card" id="flood-result">
+                            <div class="card-header">
+                                <h2>🌊 Flood Risk</h2>
+                            </div>
+                            <div class="result-content">
+                                <div class="risk-gauge">
+                                    <svg viewBox="0 0 200 120" class="gauge-svg">
+                                        <defs>
+                                            <linearGradient id="floodGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                                <stop offset="0%" style="stop-color:#10b981"/>
+                                                <stop offset="50%" style="stop-color:#f59e0b"/>
+                                                <stop offset="100%" style="stop-color:#ef4444"/>
+                                            </linearGradient>
+                                        </defs>
+                                        <path class="gauge-bg" d="M 20 100 A 80 80 0 0 1 180 100" 
+                                              fill="none" stroke="#1e293b" stroke-width="12" stroke-linecap="round"/>
+                                        <path class="gauge-fill" id="flood-gauge-fill" 
+                                              d="M 20 100 A 80 80 0 0 1 180 100" 
+                                              fill="none" stroke="url(#floodGradient)" stroke-width="12" 
+                                              stroke-linecap="round" stroke-dasharray="0 251.2"/>
+                                    </svg>
+                                    <div class="gauge-value" id="flood-value">--</div>
+                                    <div class="gauge-label" id="flood-level">Awaiting Data</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Disease Risk Card -->
+                        <div class="card result-card disease-card" id="disease-result">
+                            <div class="card-header">
+                                <h2>🦠 Disease Outbreak Risks</h2>
+                            </div>
+                            <div class="result-content">
+                                <div class="disease-grid">
+                                    <div class="disease-item" id="malaria-risk">
+                                        <span class="disease-icon">🦟</span>
+                                        <span class="disease-name">Malaria</span>
+                                        <div class="disease-bar">
+                                            <div class="disease-bar-fill" style="width: 0%"></div>
+                                        </div>
+                                        <span class="disease-value">--%</span>
+                                    </div>
+                                    <div class="disease-item" id="cholera-risk">
+                                        <span class="disease-icon">💧</span>
+                                        <span class="disease-name">Cholera</span>
+                                        <div class="disease-bar">
+                                            <div class="disease-bar-fill" style="width: 0%"></div>
+                                        </div>
+                                        <span class="disease-value">--%</span>
+                                    </div>
+                                    <div class="disease-item" id="leptospirosis-risk">
+                                        <span class="disease-icon">🐀</span>
+                                        <span class="disease-name">Leptospirosis</span>
+                                        <div class="disease-bar">
+                                            <div class="disease-bar-fill" style="width: 0%"></div>
+                                        </div>
+                                        <span class="disease-value">--%</span>
+                                    </div>
+                                    <div class="disease-item" id="hepatitis-risk">
+                                        <span class="disease-icon">🧬</span>
+                                        <span class="disease-name">Hepatitis</span>
+                                        <div class="disease-bar">
+                                            <div class="disease-bar-fill" style="width: 0%"></div>
+                                        </div>
+                                        <span class="disease-value">--%</span>
+                                    </div>
+                                </div>
+                                <div class="overall-disease">
+                                    <span class="overall-label">Overall Disease Risk</span>
+                                    <span class="overall-value" id="overall-disease-value">--</span>
+                                    <span class="overall-level" id="overall-disease-level">--</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Recommendations Card -->
+                        <div class="card result-card recommendations-card" id="recommendations-result">
+                            <div class="card-header">
+                                <h2>📋 Recommendations</h2>
+                            </div>
+                            <div class="result-content">
+                                <ul class="recommendations-list" id="recommendations-list">
+                                    <li class="recommendation-placeholder">
+                                        Submit environmental conditions to receive personalized recommendations
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About View -->
+            <section id="about-view" class="view">
+                <div class="about-content">
+                    <div class="card about-card">
+                        <h2>About DisasterPredict</h2>
+                        <p>
+                            DisasterPredict is an AI-powered risk assessment system that predicts the likelihood of 
+                            disease outbreaks following natural disasters like floods
+
+.
+                        </p>
+                        <h3>How It Works</h3>
+                        <div class="how-it-works">
+                            <div class="step">
+                                <span class="step-number">1</span>
+                                <h4>Input Conditions</h4>
+                                <p>Enter environmental factors like monsoon intensity, infrastructure quality, and preparedness levels.</p>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">2</span>
+                                <h4>Flood Prediction</h4>
+                                <p>Our ML model predicts flood probability using ensemble methods (Random Forest, Gradient Boosting).</p>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">3</span>
+                                <h4>Disease Correlation</h4>
+                                <p>Based on flood severity and conditions, we predict risks for malaria, cholera, leptospirosis, and hepatitis.</p>
+                            </div>
+                        </div>
+                        <h3>Disease-Disaster Correlations</h3>
+                        <ul class="correlation-list">
+                            <li><strong>🦟 Malaria:</strong> Stagnant water from floods creates mosquito breeding grounds (+30% risk)</li>
+                            <li><strong>💧 Cholera:</strong> Contaminated water supplies and damaged sanitation infrastructure</li>
+                            <li><strong>🐀 Leptospirosis:</strong> Flood waters carry bacteria from rodent urine</li>
+                            <li><strong>🧬 Hepatitis A/E:</strong> Fecal-oral transmission increases with sanitation breakdown</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built with 🤖 Machine Learning | <a href="http://localhost:8000/docs" target="_blank">API Documentation</a></p>
+        </footer>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <span class="toast-message"></span>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

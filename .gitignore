@@ -1,0 +1,19 @@
+# Virtual Environments
+.conda/
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+
+# Node.js Dependencies
+node_modules/
+
+# Build Outputs
+build/
+dist/
+
+# Environment Variables
+.env

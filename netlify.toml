@@ -1,10 +1,11 @@
 [build]
   base = "uiG"
   command = "npm install && npm run build"
-  publish = "build"
+  publish = "uiG/dist"
 
-[build.environment]
-  NODE_VERSION = "18"
+# IMPORTANT: explicitly disable functions
+[functions]
+  directory = ""
 
 [[redirects]]
   from = "/*"

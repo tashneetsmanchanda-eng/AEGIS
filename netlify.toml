@@ -1,11 +1,7 @@
 [build]
   base = "uiG"
   command = "npm install && npm run build"
-  publish = "uiG/dist"
-
-# IMPORTANT: explicitly disable functions
-[functions]
-  directory = ""
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
